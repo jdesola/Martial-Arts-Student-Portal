@@ -1,14 +1,14 @@
 <template>
   <v-app>
-      <nav-bar></nav-bar>
+      <drawer></drawer>
     <router-view/>
   </v-app>
 </template>
 
 <script>
-import navBar from './components/nav-bar.vue'
+import Drawer from './components/Drawer.vue'
 export default {
-  components: { navBar },
+  components: { Drawer },
   
 }
 </script>
